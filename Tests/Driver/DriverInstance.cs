@@ -21,7 +21,7 @@ namespace Tests.Driver
             {
                 new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
                 ChromeOptions options = new ChromeOptions();
-                options.AddArguments(@"load-extension=C:\Users\Пользователь\AppData\Local\Google\Chrome\User Data\Default\Extensions\gighmmpiobklfepjocnamgkkbiglidom\4.43.0_0");
+                options.AddArguments(@"load-extension=C:\Users\Пользователь\AppData\Local\Google\Chrome\User Data\Default\Extensions\gighmmpiobklfepjocnamgkkbiglidom\4.43.0_1");
                 options.AddExcludedArgument("enable-automation");
                 options.AddArgument("--disable-blink-features");
                 options.AddArgument("--disable-blink-features=AutomationControlled");
