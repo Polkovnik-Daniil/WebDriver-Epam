@@ -41,7 +41,7 @@ namespace Tests {
         public void D_DestroyPortfolio() {
             steps.DestroyPortfolio();
             bool a = steps.FindDestroyPortfolio();
-            Assert.IsTrue();
+            Assert.IsTrue(a);
         }
         //5
         [Test]
