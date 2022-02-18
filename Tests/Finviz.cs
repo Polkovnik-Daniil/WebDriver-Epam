@@ -40,8 +40,8 @@ namespace Tests {
         [Test]
         public void D_DestroyPortfolio() {
             steps.DestroyPortfolio();
-            int? a = steps.FindDestroyPortfolio();
-            Assert.();
+            bool a = steps.FindDestroyPortfolio();
+            Assert.IsTrue();
         }
         //5
         [Test]
