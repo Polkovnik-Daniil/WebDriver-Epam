@@ -64,10 +64,10 @@ namespace Tests.Steps {
             Pages.Portfolio portfolio = new Pages.Portfolio(driver);
             portfolio.OpenPage().DestroyPortfolio();
         }
-        public int? FindDestroyPortfolio() {
+        public bool FindDestroyPortfolio() {
             Pages.Portfolio portfolio = new Pages.Portfolio(driver);
             int? value = portfolio.FindDestroyPortfolio();
-            return value == 0 ? null : value;
+            return value == 0 ? true : true;
         }
         ///////////////////////////////////////////////
         public void SearchScreener() {
